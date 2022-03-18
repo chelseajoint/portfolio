@@ -1,0 +1,115 @@
+/* Reset */
+*{margin: 0; padding: 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+
+
+#wrapper{
+	width: 300px;
+	height: 600px;
+	background: white;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	z-index: 10;
+	cursor: pointer;
+}
+
+img,div{position: absolute;top:0;
+left:0}
+
+#bg{
+opacity: 1;
+z-index: 10;
+}
+
+#slotLeft{
+	left: 38px;
+	top: -4245px;
+	opacity: 1;
+	z-index: 8;
+}
+
+#slotCenter{
+	left: 110px;
+	top: -4245px;
+	opacity: 1;
+	z-index: 8;
+}
+
+#slotRight{
+	left: 182px;
+	top: -4245px;
+	opacity: 1;
+	z-index: 8;
+}
+
+#palanca1{
+	opacity: 0;
+	z-index: 15;
+}
+
+#palanca2{
+	opacity: 1;
+	z-index: 15;
+}
+
+#cta{
+  z-index: 15;
+  opacity: 0;
+}
+
+.tx{
+  z-index: 15;
+  opacity: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #0068FF;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+}
+div, img{position:absolute}
+
+#ad {
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 600px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#btn{width:300px; height:600px; background:white; opacity:0; z-index:16;}
+
+#banner {
+    display: block;
+    width: 300px;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.buttons {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+		z-index: 20;
+}

@@ -1,0 +1,39 @@
+#line01,#line04,#line07{
+	stroke-dasharray: 190;
+	stroke-dashoffset: 570;
+	animation: dash01 .75s ease-in-out .5s 3;
+}
+
+#line02,#line05,#line08{
+	stroke-dasharray: 190;
+	stroke-dashoffset: 190;
+	animation: dash02 .75s ease-in-out .8s 3;
+}
+
+#line03,#line06,#line09{
+	stroke-dasharray: 190;
+	stroke-dashoffset: 570;
+	animation: dash01 .75s ease-in-out .1s 3;
+}
+
+@keyframes dash01 {
+  from {stroke-dashoffset:570;}
+	to {stroke-dashoffset: 190;}
+}
+
+@keyframes dash02 {
+  from {stroke-dashoffset:190;}
+	to {stroke-dashoffset: 570;}
+}
+
+#line10,#line11,#line12{
+	opacity: 1;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 450;
+	animation: dash03 2.5s ease-out 3s 1 forwards;
+}
+
+@keyframes dash03 {
+  from {stroke-dashoffset:450;}
+	to {stroke-dashoffset: 0;}
+}

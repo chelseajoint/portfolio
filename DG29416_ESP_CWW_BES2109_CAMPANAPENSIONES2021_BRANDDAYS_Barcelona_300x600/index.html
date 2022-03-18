@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BESTINVER</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta name="ad.size" content="width=300,height=600">
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+    <script src="scripts/script.js"></script>
+    
+    <script>
+      document.write('<script src="'+ (window.API_URL || 'https://s1.adform.net/banners/scripts/rmb/Adform.DHTML.js?bv='+ Math.random()) +'"><\/script>');
+    </script>
+    <!-- <script>
+        var clickTag = "https://www.google.es";
+	</script> -->
+</head>
+
+<body>
+    <div id="ad">
+      <div class="click-layer" id="clickLayer"></div>
+        <!-- <a href="javascript:window.open(window.clickTag)"> -->
+        <div id="banner">
+            <div id="relojarena">
+                <div><img class="propiedades" id="relojBottom" class="abajo" src="images/relojBottom.png"></div>
+                <div id="arenaCont"><img class="propiedades" id="arena" src="images/arena.png"></div>
+                <div><img class="propiedades" id="arenaTop" src="images/arenaTop.png"></div>
+                <div><img class="propiedades" id="arenaBottom" src="images/arenaBottom.png"></div>
+                <div><img class="propiedades" id="arenaCasa" src="images/arenaCasa.png"></div>
+                <div><img class="propiedades" id="relojTop" src="images/relojTop.png"></div>
+            </div>
+            <div><img id="oficina" src="images/oficina.jpg"></div>
+            <div id="lineaCont">
+                <div id="lineaR"></div>
+                <div id="lineaG"></div>
+            </div>
+            <div id="txt1Cont"><img id="txt1" src="images/txt1.png"></div>
+            <div><img id="txt2" src="images/txt2.png"></div>
+            <div id="ctaCont">
+                <img id="cta" src="images/cta.png">
+                <div id="brillo"></div>
+            </div>
+            <div><img id="logo" src="images/logo.svg"></div>
+            <div id="white"></div>
+            <div id="border"></div>
+        </div>
+        </a>
+    </div>
+
+    <script>
+      var clickArea = document.getElementById('clickLayer');
+
+      var clickTAGvalue = dhtml.getVar('clickTAG', 'http://www.example.com');
+      var landingpagetarget = dhtml.getVar('landingPageTarget', '_blank');
+
+      clickArea.onclick = function() {
+      window.open(clickTAGvalue,landingpagetarget);
+      }
+    </script>
+
+</body>
+
+</html>
